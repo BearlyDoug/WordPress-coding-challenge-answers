@@ -21,6 +21,7 @@
 
 ### We need to update any missing `player_tv_url` post metadata
 
+```php
 1. Write the code that would accomplish this.
 DLH: There's two answers to this, with a one unknown element (Post ID) not being clearly defined.
 
@@ -81,3 +82,4 @@ Scenario 3 - Inside a WordPress loop:
 >		$new_player_tv_url = (!empty($player_tv_url)) ? $player_tv_url : $default_tv_url;
 >		update_post_meta(get_the_id(), 'player_tv_url', $new_player_tv_url);
 > 	}
+```

@@ -17,7 +17,6 @@ function custom_menu_page_display(){
     <p>This is a custom page</p>
   <?php
 }
-```
 
 ### Briefly explain
 
@@ -29,3 +28,4 @@ DLH: On a standard WordPress installation, only Administrators (or Super Admins 
 
 3. What URL exposes the new functionality?
 DLH: https://my-site.com/wp-admin/admin.php?page=nba
+```

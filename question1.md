@@ -12,7 +12,8 @@ function hello_world ( $content ){
 ### Answer the following questions:
 
 1. Why can't I see this plugin when viewing https://my-site.com/wp-admin/plugins.php?
-DLH: The function does a return of the quoted element, prepended to the content on the public side. Otherwise, there's no actual direct output.
+DLH: The function does a return of the quoted element, prepended to the content on the public side. 
+Otherwise, there's no actual direct output.
 
 1. If enabled, what would this plugin do?
 DLH: Inserts the words "Hello World" in a Heading 1 tag before any content of that page/post is rendered.
